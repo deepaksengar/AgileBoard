@@ -5,7 +5,7 @@ AgileBoard
 Description:
 ----------- 
 	This is maven project, implementation of a Agile Board coding exercise in java. 
-	Board have only one iteration at a time and have function to add card, 
+	Board have iteration and, interation have function to add card, 
 	move card to different columns (status), undo last move, 
 	find velocity (sum of estimation points of cards which has been marked as done).
 	create cards. Cards have a title, description and estimate in points
