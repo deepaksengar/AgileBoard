@@ -1,5 +1,7 @@
 AgileBoard
 
+[![Build Status](https://travis-ci.org/deepaksengar/AgileBoard.svg?branch=master)](https://travis-ci.org/deepaksengar/AgileBoard)
+
 Description:
 ----------- 
 	This is maven project, implementation of a Agile Board coding exercise in java. 
@@ -63,7 +65,7 @@ Test Result:
 -----------
 	Running test.AgileBoardTest
 	Results :
-	Tests run: 5, Failures: 0, Errors: 0
+	Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.17 sec
 	
 	
 	 		 
