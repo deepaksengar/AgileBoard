@@ -3,11 +3,11 @@ package agileboard;
 public class IterationMove {
 	
 	private Card card;
-	private String fromColumnName;
+	private String fromColumnId;
 	
 	public IterationMove(Card card, String prevColumn){
 		this.setCard(card);
-		this.setFromColumnName(prevColumn);
+		this.setFromColumnId(prevColumn);
 	}
 	
 	
@@ -17,11 +17,11 @@ public class IterationMove {
 	public void setCard(Card card) {
 		this.card = card;
 	}
-	public String getFromColumnName() {
-		return fromColumnName;
+	public String getFromColumnId() {
+		return fromColumnId;
 	}
-	public void setFromColumnName(String fromColumnName) {
-		this.fromColumnName = fromColumnName;
+	public void setFromColumnId(String fromColumnId) {
+		this.fromColumnId = fromColumnId;
 	}
 
 }

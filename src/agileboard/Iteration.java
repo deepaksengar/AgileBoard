@@ -41,7 +41,7 @@ public class Iteration {
 			throw new NoCardsMovementFoundException("No cards found to move.");
 		}
 		
-		Column toColumn = getColumn(lastMove.getFromColumnName());
+		Column toColumn = getColumn(lastMove.getFromColumnId());
 		
 		int cardEstimates = lastMove.getCard().getEstimatePoints();
 		
